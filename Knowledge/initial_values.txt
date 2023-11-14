@@ -1,0 +1,5 @@
+Valores iniciales para implementar el modelo BKT
+PL: 0.200000
+PG: 0.593856
+PS: 0.087527
+PT: 0.600000

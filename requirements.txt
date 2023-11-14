@@ -1,0 +1,7 @@
+cloudpickle==3.0.0
+gym==0.26.2
+gym-notices==0.0.8
+numpy==1.26.1
+matplotlib==3.8.1
+scikit-learn
+pandas
