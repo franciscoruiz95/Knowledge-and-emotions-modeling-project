@@ -1,0 +1,15 @@
+"""
+    Valores iniciales para implementar el modelo BKT\skill_n
+    initial_values = {skill_n : {\n
+            'p_init'    : val_l,\n
+            'p_guess'   : val_g,\n
+            'p_slip'    : val_s,\n
+            'p_transit' : val_t,\n
+        },}\n
+
+    Hay 4 parámetros de modelo utilizados en BKT:\n
+    p_init,     la probabilidad de que el estudiante conozca la habilidad de antemano.\n
+    p_guess,    la probabilidad de que el estudiante aplique correctamente una habilidad desconocida (tiene suerte)\n
+    p_slip,     la probabilidad de que el estudiante cometa un error al aplicar una habilidad conocida\n
+    p_transit,  la probabilidad de que el estudiante demuestre conocimiento de la habilidad después de una oportunidad de aplicarla
+"""

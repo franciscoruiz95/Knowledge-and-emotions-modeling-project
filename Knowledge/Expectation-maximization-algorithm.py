@@ -1,59 +1,61 @@
 from sklearn.mixture import GaussianMixture as GMM
+from pyBKT.models import Model
 import numpy as np
 import pandas as pd
+import pprint
 
 # Cargar el dataset
-#data = pd.read_csv('tu_dataset.csv')
+data = pd.read_csv('../DataSet.csv')
+pprint.pprint(data)
+# definine la ruta del nuevo dataset
+data_path = '../dataForEM.csv'
 
-# Configurar la generación de datos aleatorios
-np.random.seed(42)
+# Renombrar las columnas según los nombres predeterminados de PyBKT
+new_data = data[['UserId', 'CategoryId', 'Output']]
+new_column_names = {
+    'UserId': 'user_id',
+    'CategoryId': 'skill_name',
+    # 'CategoryName': 'skill_name',
+    'Output': 'correct'
+}
+new_data = new_data.rename(columns=new_column_names)
+new_data.to_csv(data_path, index=False)
 
-# Número de estudiantes
-num_students = 100
+# skill_data = data[data['sequence_id'] == 1]
+# pprint.pprint(skill_data)
 
-# Generar habilidades de manera aleatoria en el rango [0, 5)
-skills = np.random.randint(0, 5, size=num_students)
+# Obtener la lista única de habilidades (skills)
+unique_skills_names = new_data['skill_name'].unique()
 
-# Generar respuestas (0 o 1) con mayor probabilidad para habilidades más altas
-prob_correct = 0.8 - 0.1 * skills
-responses = np.random.binomial(1, prob_correct)
+# Creamos un diccionario para guardar todos los datos Iniciales por cada skill
+# initial_values = {skill_name : [PL, PG, PS, PT]}
+var = ['p_init', 'p_guess', 'p_slip', 'p_transit']
+initial_values = {skill : {val : 0 for val in var} for skill in unique_skills_names}
 
-# Crear un DataFrame con las habilidades y respuestas
-data = pd.DataFrame({'skill': skills, 'response': responses})
+# Se instancia el modelo EM
+model = Model()
+model.fit(data_path = data_path)
 
-print(data)
-# Seleccionar las columnas relevantes (skill y response)
-X = data[['skill', 'response']]
+# Se recorren cada un de los skills y se optiene los valores iniciales
+for skill_name in unique_skills_names:
+    params = model.params().loc[(str(skill_name))]
+    initial_values[skill_name]['p_init'] = params.loc[('prior', 'default')]['value']
+    initial_values[skill_name]['p_guess'] = params.loc[('guesses', 'default')]['value']
+    initial_values[skill_name]['p_slip'] = params.loc[('slips', 'default')]['value']
+    initial_values[skill_name]['p_transit'] = params.loc[('learns', 'default')]['value']
 
-# Crear un modelo de mezcla gaussiana GMM para obtener los parámetros iniciales
-gmm = GMM(n_components=5, random_state=42)  # Ajusta el número de componentes según tu caso
-gmm.fit(X) #Estima los parámetros del modelo con el algoritmo EM.
+#leer el mensaje del archivo message.txt
+with open('message.txt', 'r') as file:
+    # Lee el contenido del archivo y lo guarda en una variable
+    message = file.read()
 
-# Obtener los parámetros estimados del GMM
-gmm_weights = gmm.weights_
-gmm_means = gmm.means_
-gmm_covariances = gmm.covariances_
-print("gmm_weights:", gmm_weights)
-print("gmm_means:", gmm_means)
-print("gmm_covariances:", gmm_covariances)
-
-# Calcular los valores iniciales de los parámetros del modelo BKT
-PL = np.mean(gmm_weights)  # Usar el peso promedio de los componentes del GMM
-PG = np.mean(gmm_means[:, 1])  # Usar la media promedio de la columna 'response'
-PS = np.mean(gmm_covariances[:, 1, 1])  # Usar la covarianza promedio de la columna 'response'
-# Calcular un valor inicial para PT basado en la suma ponderada de las medias de las habilidades en el GMM
-PT = np.sum(gmm_weights * gmm_means[:, 1]) / np.sum(gmm_weights)
-
-# Guardar los valores iniciales en un archivo de texto (txt)
-with open('initial_values.txt', 'w') as file:
-    file.write(f"Valores iniciales para implementar el modelo BKT\n")
-    file.write(f"PL: {PL:2f}\n")
-    file.write(f"PG: {PG:2f}\n")
-    file.write(f"PS: {PS:2f}\n")
-    file.write(f"PT: {PT:2f}\n")
-
-# # Mostrar los valores iniciales calculados
-# print("p_init:", PL)
-# print("p_guess:", PG)
-# print("p_slip:", PS)
-# print("p_transit:", PT)
+# Guardar los valores iniciales en un archivo .py
+with open('initial_values.py', 'w') as file:
+    file.write(f"{message}\n")
+    file.write("initial_values = {\n")
+    for skill, values in initial_values.items():
+        file.write(f"\t{skill} : " + "{\n")
+        for val, initial  in values.items():
+            file.write(f"\t\t'{val}'\t: {round(initial, 6)},\n")
+        file.write("\t},\n")
+    file.write("}")

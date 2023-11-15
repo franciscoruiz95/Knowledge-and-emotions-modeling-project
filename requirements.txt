@@ -5,3 +5,4 @@ numpy==1.26.1
 matplotlib==3.8.1
 scikit-learn
 pandas
+pyBKT
