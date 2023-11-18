@@ -1,0 +1,151 @@
+user_id,skill_name,CategoryName,correct
+4,1,Aritmética básica,1
+4,1,Aritmética básica,1
+4,1,Aritmética básica,1
+4,1,Aritmética básica,1
+4,1,Aritmética básica,1
+4,1,Aritmética básica,1
+4,2,Problemas de proporciones,1
+4,2,Problemas de proporciones,1
+4,2,Problemas de proporciones,1
+4,2,Problemas de proporciones,1
+4,2,Problemas de proporciones,1
+4,2,Problemas de proporciones,1
+4,3,Geometría básica,1
+4,3,Geometría básica,1
+4,3,Geometría básica,1
+4,3,Geometría básica,1
+4,3,Geometría básica,0
+4,3,Geometría básica,1
+4,4,Problemas de porcentajes,1
+4,4,Problemas de porcentajes,1
+4,4,Problemas de porcentajes,0
+4,4,Problemas de porcentajes,1
+4,4,Problemas de porcentajes,0
+4,4,Problemas de porcentajes,1
+4,5,Problemas de tiempo y velocidad,1
+4,5,Problemas de tiempo y velocidad,1
+4,5,Problemas de tiempo y velocidad,1
+4,5,Problemas de tiempo y velocidad,1
+4,5,Problemas de tiempo y velocidad,1
+4,5,Problemas de tiempo y velocidad,1
+6,1,Aritmética básica,1
+6,1,Aritmética básica,1
+6,1,Aritmética básica,1
+6,1,Aritmética básica,0
+6,1,Aritmética básica,1
+6,1,Aritmética básica,0
+6,2,Problemas de proporciones,0
+6,2,Problemas de proporciones,0
+6,2,Problemas de proporciones,0
+6,2,Problemas de proporciones,0
+6,2,Problemas de proporciones,1
+6,2,Problemas de proporciones,1
+6,3,Geometría básica,0
+6,3,Geometría básica,0
+6,3,Geometría básica,0
+6,3,Geometría básica,1
+6,3,Geometría básica,0
+6,3,Geometría básica,0
+6,4,Problemas de porcentajes,1
+6,4,Problemas de porcentajes,1
+6,4,Problemas de porcentajes,0
+6,4,Problemas de porcentajes,1
+6,4,Problemas de porcentajes,0
+6,4,Problemas de porcentajes,0
+6,5,Problemas de tiempo y velocidad,0
+6,5,Problemas de tiempo y velocidad,0
+6,5,Problemas de tiempo y velocidad,1
+6,5,Problemas de tiempo y velocidad,0
+6,5,Problemas de tiempo y velocidad,1
+6,5,Problemas de tiempo y velocidad,1
+11,1,Aritmética básica,1
+11,1,Aritmética básica,0
+11,1,Aritmética básica,1
+11,1,Aritmética básica,0
+11,1,Aritmética básica,1
+11,1,Aritmética básica,1
+11,2,Problemas de proporciones,0
+11,2,Problemas de proporciones,0
+11,2,Problemas de proporciones,0
+11,2,Problemas de proporciones,1
+11,2,Problemas de proporciones,0
+11,2,Problemas de proporciones,1
+11,3,Geometría básica,0
+11,3,Geometría básica,0
+11,3,Geometría básica,0
+11,3,Geometría básica,1
+11,3,Geometría básica,0
+11,3,Geometría básica,0
+11,4,Problemas de porcentajes,0
+11,4,Problemas de porcentajes,0
+11,4,Problemas de porcentajes,0
+11,4,Problemas de porcentajes,1
+11,4,Problemas de porcentajes,0
+11,4,Problemas de porcentajes,0
+11,5,Problemas de tiempo y velocidad,0
+11,5,Problemas de tiempo y velocidad,1
+11,5,Problemas de tiempo y velocidad,0
+11,5,Problemas de tiempo y velocidad,0
+11,5,Problemas de tiempo y velocidad,0
+11,5,Problemas de tiempo y velocidad,0
+12,1,Aritmética básica,1
+12,1,Aritmética básica,0
+12,1,Aritmética básica,0
+12,1,Aritmética básica,1
+12,1,Aritmética básica,1
+12,1,Aritmética básica,0
+12,2,Problemas de proporciones,1
+12,2,Problemas de proporciones,1
+12,2,Problemas de proporciones,1
+12,2,Problemas de proporciones,0
+12,2,Problemas de proporciones,0
+12,2,Problemas de proporciones,0
+12,3,Geometría básica,0
+12,3,Geometría básica,0
+12,3,Geometría básica,1
+12,3,Geometría básica,0
+12,3,Geometría básica,0
+12,3,Geometría básica,0
+12,4,Problemas de porcentajes,0
+12,4,Problemas de porcentajes,1
+12,4,Problemas de porcentajes,1
+12,4,Problemas de porcentajes,1
+12,4,Problemas de porcentajes,1
+12,4,Problemas de porcentajes,1
+12,5,Problemas de tiempo y velocidad,1
+12,5,Problemas de tiempo y velocidad,0
+12,5,Problemas de tiempo y velocidad,1
+12,5,Problemas de tiempo y velocidad,1
+12,5,Problemas de tiempo y velocidad,1
+12,5,Problemas de tiempo y velocidad,1
+13,1,Aritmética básica,1
+13,1,Aritmética básica,1
+13,1,Aritmética básica,1
+13,1,Aritmética básica,1
+13,1,Aritmética básica,1
+13,1,Aritmética básica,1
+13,2,Problemas de proporciones,0
+13,2,Problemas de proporciones,1
+13,2,Problemas de proporciones,1
+13,2,Problemas de proporciones,1
+13,2,Problemas de proporciones,1
+13,2,Problemas de proporciones,1
+13,3,Geometría básica,1
+13,3,Geometría básica,0
+13,3,Geometría básica,0
+13,3,Geometría básica,0
+13,3,Geometría básica,0
+13,3,Geometría básica,0
+13,4,Problemas de porcentajes,1
+13,4,Problemas de porcentajes,1
+13,4,Problemas de porcentajes,1
+13,4,Problemas de porcentajes,1
+13,4,Problemas de porcentajes,1
+13,4,Problemas de porcentajes,1
+13,5,Problemas de tiempo y velocidad,1
+13,5,Problemas de tiempo y velocidad,1
+13,5,Problemas de tiempo y velocidad,1
+13,5,Problemas de tiempo y velocidad,0
+13,5,Problemas de tiempo y velocidad,0
+13,5,Problemas de tiempo y velocidad,0

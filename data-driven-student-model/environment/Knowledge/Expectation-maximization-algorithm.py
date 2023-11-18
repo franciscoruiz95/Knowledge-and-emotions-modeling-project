@@ -1,21 +1,19 @@
-from sklearn.mixture import GaussianMixture as GMM
 from pyBKT.models import Model
 import numpy as np
 import pandas as pd
 import pprint
 
 # Cargar el dataset
-data = pd.read_csv('../DataSet.csv')
-pprint.pprint(data)
+data = pd.read_csv('../../../DataSet.csv')
+
 # definine la ruta del nuevo dataset
-data_path = '../dataForEM.csv'
+data_path = 'data/DataForEM.csv'
 
 # Renombrar las columnas según los nombres predeterminados de PyBKT
-new_data = data[['UserId', 'CategoryId', 'Output']]
+new_data = data[['UserId', 'CategoryId', 'CategoryName', 'Output']]
 new_column_names = {
     'UserId': 'user_id',
     'CategoryId': 'skill_name',
-    # 'CategoryName': 'skill_name',
     'Output': 'correct'
 }
 new_data = new_data.rename(columns=new_column_names)

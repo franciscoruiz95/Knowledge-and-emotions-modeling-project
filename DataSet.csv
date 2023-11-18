@@ -1,241 +1,151 @@
-ID,UserId,UserDNI,CategoryId,CategoryName,Level,QuestionId,QuestionName,UserAnswer,CorrectAnswer,Output
-121,4,10715251,1,Aritmética básica,bajo,1,"Si un libro cuesta 25 bolívares y quieres comprar 2 libros, ¿cuánto dinero necesitas?",50,50,1
-122,4,10715251,1,Aritmética básica,bajo,2,"Si un paquete contiene 10 galletas y quieres repartirlas entre 2 personas por igual, ¿cuántas galletas le tocan a cada persona?",5,5,1
-123,4,10715251,1,Aritmética básica,bajo,3,"Si un restaurante cobra 5 bolívares por plato y quieres invitar a 3 amigos a comer, ¿cuánto dinero necesitas en total?",15,15,1
-124,4,10715251,1,Aritmética básica,bajo,4,"Si tienes 10 lápices y quieres repartirlos en 2 estuches por igual, ¿cuántos lápices deben ir en cada estuche?",5,5,1
-125,4,10715251,1,Aritmética básica,bajo,5,"Si un tanque de gasolina tiene capacidad para 30 litros y ya tiene 10 litros, ¿cuántos litros más puedes echarle?",20,20,1
-126,4,10715251,1,Aritmética básica,bajo,6,"Si tienes 100 bolívares y quieres repartir este dinero entre 4 personas por igual, ¿cuánto le toca a cada persona?",25,25,1
-127,4,10715251,2,Problemas de proporciones,medio,7,"Si 5 camiones pueden cargar 200 toneladas de carga en total, ¿cuántas toneladas podrían cargar 8 camiones?",320,320,1
-128,4,10715251,2,Problemas de proporciones,medio,8,"Si 8 metros de tela cuestan 40 bolívares, ¿cuánto cuestan 12 metros de la misma tela?",60,60,1
-129,4,10715251,2,Problemas de proporciones,medio,9,"Si 3 litros de pintura cubren un área de 15 metros cuadrados, ¿cuántos litros necesitarás para cubrir un área de 30 metros cuadrados?",6,6,1
-130,4,10715251,2,Problemas de proporciones,medio,10,"Si 4 trabajadores tardan 8 horas en completar un proyecto, ¿cuántas horas tardarán 6 trabajadores en completar el mismo proyecto?",12,12,1
-131,4,10715251,2,Problemas de proporciones,medio,11,"Si una receta de pastel requiere 3 tazas de harina y quieres hacer el doble de la receta, ¿cuántas tazas de harina necesitarás?",6,6,1
-132,4,10715251,2,Problemas de proporciones,medio,12,"Si 2 cajas de refresco contienen 24 latas en total, ¿cuántas latas hay en cada caja?",12,12,1
-133,4,10715251,3,Geometría básica,medio-alto,13,"Si un cuadrado tiene un lado de longitud 12 centímetros, ¿cuál es su perímetro?",48,48,1
-134,4,10715251,3,Geometría básica,medio-alto,14,"Si un cuadrado tiene un lado de longitud 16 metros, ¿cuál es su área?",256,256,1
-135,4,10715251,3,Geometría básica,medio-alto,15,"Si un rectángulo tiene una base de 15 metros y una altura de 9 metros, ¿cuál es su área?",135,135,1
-136,4,10715251,3,Geometría básica,medio-alto,16,"Si un círculo tiene un radio de 8 centímetros, ¿cuál es su circunferencia?",16π,16π,1
-137,4,10715251,3,Geometría básica,medio-alto,17,"Si un cubo tiene una arista de longitud de 5 metros, ¿cuál es su volumen?",75,125,0
-138,4,10715251,3,Geometría básica,medio-alto,18,"Si un prisma rectangular tiene una base de 10 cm de ancho, 8 cm de largo y 6 cm de altura, ¿cuál es su volumen?",480,480,1
-139,4,10715251,4,Problemas de porcentajes,alto,19,"Si un producto tiene un precio original de 100 bolívares y está rebajado un 30%, ¿cuál es su precio de venta?",70,70,1
-140,4,10715251,4,Problemas de porcentajes,alto,20,"Si un estudiante contesta correctamente 28 preguntas de un total de 35 en un examen, ¿cuál es el porcentaje de respuestas correctas?",80,80,1
-141,4,10715251,4,Problemas de porcentajes,alto,21,"Si una tienda aumenta el precio de un artículo en un 25%, ¿cuánto costará si el precio original era de 80 bolívares?",105,100,0
-142,4,10715251,4,Problemas de porcentajes,alto,22,"Si un grupo de estudiantes está compuesto por un 70% de mujeres y el resto del grupo son hombres, ¿cuál es el porcentaje de hombres en el grupo?",30,30,1
-143,4,10715251,4,Problemas de porcentajes,alto,23,"Si un descuento de 40% implica un ahorro de 120 bolívares, ¿cuál era el precio original del artículo?",360,300,0
-144,4,10715251,4,Problemas de porcentajes,alto,24,"Si un restaurante aplica un impuesto del 15% sobre el total de la cuenta, ¿cuánto pagará una persona si su consumo es de 50 bolívares?","57,5","57,5",1
-145,4,10715251,5,Problemas de tiempo y velocidad,alto,25,"Si una persona corre a una velocidad constante de 15 kilómetros por hora (km/h), ¿cuánto tiempo tardará en recorrer 75 kilómetros (km)?",5,5,1
-146,4,10715251,5,Problemas de tiempo y velocidad,alto,26,"Si un automóvil recorre 480 kilómetros (km) en 6 horas (h), ¿cuál es su velocidad promedio en kilómetros por hora (km/h)?",80,80,1
-147,4,10715251,5,Problemas de tiempo y velocidad,alto,27,"Si un tren viaja a una velocidad constante de 100 kilómetros por hora (km/h) y necesita recorrer una distancia de 800 kilómetros (km), ¿cuánto tiempo tardará en llegar a su destino?",8,8,1
-148,4,10715251,5,Problemas de tiempo y velocidad,alto,28,"Si una persona camina a una velocidad de 8 kilómetros por hora (km/h) y quiere recorrer una distancia de 32 kilómetros (km), ¿cuánto tiempo le tomará?",4,4,1
-149,4,10715251,5,Problemas de tiempo y velocidad,alto,29,"Si un avión viaja a una velocidad de 1000 kilómetros por hora (km/h) y debe recorrer una distancia de 4000 kilómetros (km), ¿cuántas horas tardará en llegar a su destino?",4,4,1
-150,4,10715251,5,Problemas de tiempo y velocidad,alto,30,"Si un tren recorre una distancia de 200 kilómetros (km) en 2 horas, ¿cuál es su velocidad en kilómetros por hora (km/h)?",100,100,1
-31,6,34824253,1,Aritmética básica,bajo,1,"Si un libro cuesta 25 bolívares y quieres comprar 2 libros, ¿cuánto dinero necesitas?",50,50,1
-32,6,34824253,1,Aritmética básica,bajo,2,"Si un paquete contiene 10 galletas y quieres repartirlas entre 2 personas por igual, ¿cuántas galletas le tocan a cada persona?",5,5,1
-33,6,34824253,1,Aritmética básica,bajo,3,"Si un restaurante cobra 5 bolívares por plato y quieres invitar a 3 amigos a comer, ¿cuánto dinero necesitas en total?",15,15,1
-34,6,34824253,1,Aritmética básica,bajo,4,"Si tienes 10 lápices y quieres repartirlos en 2 estuches por igual, ¿cuántos lápices deben ir en cada estuche?",4,5,0
-35,6,34824253,1,Aritmética básica,bajo,5,"Si un tanque de gasolina tiene capacidad para 30 litros y ya tiene 10 litros, ¿cuántos litros más puedes echarle?",20,20,1
-36,6,34824253,1,Aritmética básica,bajo,6,"Si tienes 100 bolívares y quieres repartir este dinero entre 4 personas por igual, ¿cuánto le toca a cada persona?",35,25,0
-37,6,34824253,2,Problemas de proporciones,medio,7,"Si 5 camiones pueden cargar 200 toneladas de carga en total, ¿cuántas toneladas podrían cargar 8 camiones?",400,320,0
-38,6,34824253,2,Problemas de proporciones,medio,8,"Si 8 metros de tela cuestan 40 bolívares, ¿cuánto cuestan 12 metros de la misma tela?",55,60,0
-39,6,34824253,2,Problemas de proporciones,medio,9,"Si 3 litros de pintura cubren un área de 15 metros cuadrados, ¿cuántos litros necesitarás para cubrir un área de 30 metros cuadrados?",12,6,0
-40,6,34824253,2,Problemas de proporciones,medio,10,"Si 4 trabajadores tardan 8 horas en completar un proyecto, ¿cuántas horas tardarán 6 trabajadores en completar el mismo proyecto?",4,12,0
-41,6,34824253,2,Problemas de proporciones,medio,11,"Si una receta de pastel requiere 3 tazas de harina y quieres hacer el doble de la receta, ¿cuántas tazas de harina necesitarás?",6,6,1
-42,6,34824253,2,Problemas de proporciones,medio,12,"Si 2 cajas de refresco contienen 24 latas en total, ¿cuántas latas hay en cada caja?",12,12,1
-43,6,34824253,3,Geometría básica,medio-alto,13,"Si un cuadrado tiene un lado de longitud 12 centímetros, ¿cuál es su perímetro?",36,48,0
-44,6,34824253,3,Geometría básica,medio-alto,14,"Si un cuadrado tiene un lado de longitud 16 metros, ¿cuál es su área?",64,256,0
-45,6,34824253,3,Geometría básica,medio-alto,15,"Si un rectángulo tiene una base de 15 metros y una altura de 9 metros, ¿cuál es su área?",54,135,0
-46,6,34824253,3,Geometría básica,medio-alto,16,"Si un círculo tiene un radio de 8 centímetros, ¿cuál es su circunferencia?",16π,16π,1
-47,6,34824253,3,Geometría básica,medio-alto,17,"Si un cubo tiene una arista de longitud de 5 metros, ¿cuál es su volumen?",25,125,0
-48,6,34824253,3,Geometría básica,medio-alto,18,"Si un prisma rectangular tiene una base de 10 cm de ancho, 8 cm de largo y 6 cm de altura, ¿cuál es su volumen?",280,480,0
-49,6,34824253,4,Problemas de porcentajes,alto,19,"Si un producto tiene un precio original de 100 bolívares y está rebajado un 30%, ¿cuál es su precio de venta?",70,70,1
-50,6,34824253,4,Problemas de porcentajes,alto,20,"Si un estudiante contesta correctamente 28 preguntas de un total de 35 en un examen, ¿cuál es el porcentaje de respuestas correctas?",80,80,1
-51,6,34824253,4,Problemas de porcentajes,alto,21,"Si una tienda aumenta el precio de un artículo en un 25%, ¿cuánto costará si el precio original era de 80 bolívares?",105,100,0
-52,6,34824253,4,Problemas de porcentajes,alto,22,"Si un grupo de estudiantes está compuesto por un 70% de mujeres y el resto del grupo son hombres, ¿cuál es el porcentaje de hombres en el grupo?",30,30,1
-53,6,34824253,4,Problemas de porcentajes,alto,23,"Si un descuento de 40% implica un ahorro de 120 bolívares, ¿cuál era el precio original del artículo?",200,300,0
-54,6,34824253,4,Problemas de porcentajes,alto,24,"Si un restaurante aplica un impuesto del 15% sobre el total de la cuenta, ¿cuánto pagará una persona si su consumo es de 50 bolívares?","62,5","57,5",0
-55,6,34824253,5,Problemas de tiempo y velocidad,alto,25,"Si una persona corre a una velocidad constante de 15 kilómetros por hora (km/h), ¿cuánto tiempo tardará en recorrer 75 kilómetros (km)?",4,5,0
-56,6,34824253,5,Problemas de tiempo y velocidad,alto,26,"Si un automóvil recorre 480 kilómetros (km) en 6 horas (h), ¿cuál es su velocidad promedio en kilómetros por hora (km/h)?",60,80,0
-57,6,34824253,5,Problemas de tiempo y velocidad,alto,27,"Si un tren viaja a una velocidad constante de 100 kilómetros por hora (km/h) y necesita recorrer una distancia de 800 kilómetros (km), ¿cuánto tiempo tardará en llegar a su destino?",8,8,1
-58,6,34824253,5,Problemas de tiempo y velocidad,alto,28,"Si una persona camina a una velocidad de 8 kilómetros por hora (km/h) y quiere recorrer una distancia de 32 kilómetros (km), ¿cuánto tiempo le tomará?",2,4,0
-59,6,34824253,5,Problemas de tiempo y velocidad,alto,29,"Si un avión viaja a una velocidad de 1000 kilómetros por hora (km/h) y debe recorrer una distancia de 4000 kilómetros (km), ¿cuántas horas tardará en llegar a su destino?",4,4,1
-60,6,34824253,5,Problemas de tiempo y velocidad,alto,30,"Si un tren recorre una distancia de 200 kilómetros (km) en 2 horas, ¿cuál es su velocidad en kilómetros por hora (km/h)?",100,100,1
-151,9,33659974,1,Aritmética básica,bajo,1,"Si un libro cuesta 25 bolívares y quieres comprar 2 libros, ¿cuánto dinero necesitas?",50,50,1
-152,9,33659974,1,Aritmética básica,bajo,2,"Si un paquete contiene 10 galletas y quieres repartirlas entre 2 personas por igual, ¿cuántas galletas le tocan a cada persona?",3,5,0
-153,9,33659974,1,Aritmética básica,bajo,3,"Si un restaurante cobra 5 bolívares por plato y quieres invitar a 3 amigos a comer, ¿cuánto dinero necesitas en total?",15,15,1
-154,9,33659974,1,Aritmética básica,bajo,4,"Si tienes 10 lápices y quieres repartirlos en 2 estuches por igual, ¿cuántos lápices deben ir en cada estuche?",5,5,1
-155,9,33659974,1,Aritmética básica,bajo,5,"Si un tanque de gasolina tiene capacidad para 30 litros y ya tiene 10 litros, ¿cuántos litros más puedes echarle?",20,20,1
-156,9,33659974,1,Aritmética básica,bajo,6,"Si tienes 100 bolívares y quieres repartir este dinero entre 4 personas por igual, ¿cuánto le toca a cada persona?",25,25,1
-157,9,33659974,2,Problemas de proporciones,medio,7,"Si 5 camiones pueden cargar 200 toneladas de carga en total, ¿cuántas toneladas podrían cargar 8 camiones?",400,320,0
-158,9,33659974,2,Problemas de proporciones,medio,8,"Si 8 metros de tela cuestan 40 bolívares, ¿cuánto cuestan 12 metros de la misma tela?",60,60,1
-159,9,33659974,2,Problemas de proporciones,medio,9,"Si 3 litros de pintura cubren un área de 15 metros cuadrados, ¿cuántos litros necesitarás para cubrir un área de 30 metros cuadrados?",12,6,0
-160,9,33659974,2,Problemas de proporciones,medio,10,"Si 4 trabajadores tardan 8 horas en completar un proyecto, ¿cuántas horas tardarán 6 trabajadores en completar el mismo proyecto?",12,12,1
-161,9,33659974,2,Problemas de proporciones,medio,11,"Si una receta de pastel requiere 3 tazas de harina y quieres hacer el doble de la receta, ¿cuántas tazas de harina necesitarás?",6,6,1
-162,9,33659974,2,Problemas de proporciones,medio,12,"Si 2 cajas de refresco contienen 24 latas en total, ¿cuántas latas hay en cada caja?",12,12,1
-163,9,33659974,3,Geometría básica,medio-alto,13,"Si un cuadrado tiene un lado de longitud 12 centímetros, ¿cuál es su perímetro?",60,48,0
-164,9,33659974,3,Geometría básica,medio-alto,14,"Si un cuadrado tiene un lado de longitud 16 metros, ¿cuál es su área?",128,256,0
-165,9,33659974,3,Geometría básica,medio-alto,15,"Si un rectángulo tiene una base de 15 metros y una altura de 9 metros, ¿cuál es su área?",90,135,0
-166,9,33659974,3,Geometría básica,medio-alto,16,"Si un círculo tiene un radio de 8 centímetros, ¿cuál es su circunferencia?",24π,16π,0
-167,9,33659974,3,Geometría básica,medio-alto,17,"Si un cubo tiene una arista de longitud de 5 metros, ¿cuál es su volumen?",25,125,0
-168,9,33659974,3,Geometría básica,medio-alto,18,"Si un prisma rectangular tiene una base de 10 cm de ancho, 8 cm de largo y 6 cm de altura, ¿cuál es su volumen?",360,480,0
-169,9,33659974,4,Problemas de porcentajes,alto,19,"Si un producto tiene un precio original de 100 bolívares y está rebajado un 30%, ¿cuál es su precio de venta?",80,70,0
-170,9,33659974,4,Problemas de porcentajes,alto,20,"Si un estudiante contesta correctamente 28 preguntas de un total de 35 en un examen, ¿cuál es el porcentaje de respuestas correctas?",75,80,0
-171,9,33659974,4,Problemas de porcentajes,alto,21,"Si una tienda aumenta el precio de un artículo en un 25%, ¿cuánto costará si el precio original era de 80 bolívares?",105,100,0
-172,9,33659974,4,Problemas de porcentajes,alto,22,"Si un grupo de estudiantes está compuesto por un 70% de mujeres y el resto del grupo son hombres, ¿cuál es el porcentaje de hombres en el grupo?",30,30,1
-173,9,33659974,4,Problemas de porcentajes,alto,23,"Si un descuento de 40% implica un ahorro de 120 bolívares, ¿cuál era el precio original del artículo?",200,300,0
-174,9,33659974,4,Problemas de porcentajes,alto,24,"Si un restaurante aplica un impuesto del 15% sobre el total de la cuenta, ¿cuánto pagará una persona si su consumo es de 50 bolívares?","52,5","57,5",0
-175,9,33659974,5,Problemas de tiempo y velocidad,alto,25,"Si una persona corre a una velocidad constante de 15 kilómetros por hora (km/h), ¿cuánto tiempo tardará en recorrer 75 kilómetros (km)?",3,5,0
-176,9,33659974,5,Problemas de tiempo y velocidad,alto,26,"Si un automóvil recorre 480 kilómetros (km) en 6 horas (h), ¿cuál es su velocidad promedio en kilómetros por hora (km/h)?",60,80,0
-177,9,33659974,5,Problemas de tiempo y velocidad,alto,27,"Si un tren viaja a una velocidad constante de 100 kilómetros por hora (km/h) y necesita recorrer una distancia de 800 kilómetros (km), ¿cuánto tiempo tardará en llegar a su destino?",8,8,1
-178,9,33659974,5,Problemas de tiempo y velocidad,alto,28,"Si una persona camina a una velocidad de 8 kilómetros por hora (km/h) y quiere recorrer una distancia de 32 kilómetros (km), ¿cuánto tiempo le tomará?",3,4,0
-179,9,33659974,5,Problemas de tiempo y velocidad,alto,29,"Si un avión viaja a una velocidad de 1000 kilómetros por hora (km/h) y debe recorrer una distancia de 4000 kilómetros (km), ¿cuántas horas tardará en llegar a su destino?",2,4,0
-180,9,33659974,5,Problemas de tiempo y velocidad,alto,30,"Si un tren recorre una distancia de 200 kilómetros (km) en 2 horas, ¿cuál es su velocidad en kilómetros por hora (km/h)?",100,100,1
-181,11,17130470,1,Aritmética básica,bajo,1,"Si un libro cuesta 25 bolívares y quieres comprar 2 libros, ¿cuánto dinero necesitas?",50,50,1
-182,11,17130470,1,Aritmética básica,bajo,2,"Si un paquete contiene 10 galletas y quieres repartirlas entre 2 personas por igual, ¿cuántas galletas le tocan a cada persona?",3,5,0
-183,11,17130470,1,Aritmética básica,bajo,3,"Si un restaurante cobra 5 bolívares por plato y quieres invitar a 3 amigos a comer, ¿cuánto dinero necesitas en total?",15,15,1
-184,11,17130470,1,Aritmética básica,bajo,4,"Si tienes 10 lápices y quieres repartirlos en 2 estuches por igual, ¿cuántos lápices deben ir en cada estuche?",3,5,0
-185,11,17130470,1,Aritmética básica,bajo,5,"Si un tanque de gasolina tiene capacidad para 30 litros y ya tiene 10 litros, ¿cuántos litros más puedes echarle?",20,20,1
-186,11,17130470,1,Aritmética básica,bajo,6,"Si tienes 100 bolívares y quieres repartir este dinero entre 4 personas por igual, ¿cuánto le toca a cada persona?",25,25,1
-187,11,17130470,2,Problemas de proporciones,medio,7,"Si 5 camiones pueden cargar 200 toneladas de carga en total, ¿cuántas toneladas podrían cargar 8 camiones?",400,320,0
-188,11,17130470,2,Problemas de proporciones,medio,8,"Si 8 metros de tela cuestan 40 bolívares, ¿cuánto cuestan 12 metros de la misma tela?",55,60,0
-189,11,17130470,2,Problemas de proporciones,medio,9,"Si 3 litros de pintura cubren un área de 15 metros cuadrados, ¿cuántos litros necesitarás para cubrir un área de 30 metros cuadrados?",12,6,0
-190,11,17130470,2,Problemas de proporciones,medio,10,"Si 4 trabajadores tardan 8 horas en completar un proyecto, ¿cuántas horas tardarán 6 trabajadores en completar el mismo proyecto?",12,12,1
-191,11,17130470,2,Problemas de proporciones,medio,11,"Si una receta de pastel requiere 3 tazas de harina y quieres hacer el doble de la receta, ¿cuántas tazas de harina necesitarás?",9,6,0
-192,11,17130470,2,Problemas de proporciones,medio,12,"Si 2 cajas de refresco contienen 24 latas en total, ¿cuántas latas hay en cada caja?",12,12,1
-193,11,17130470,3,Geometría básica,medio-alto,13,"Si un cuadrado tiene un lado de longitud 12 centímetros, ¿cuál es su perímetro?",60,48,0
-194,11,17130470,3,Geometría básica,medio-alto,14,"Si un cuadrado tiene un lado de longitud 16 metros, ¿cuál es su área?",64,256,0
-195,11,17130470,3,Geometría básica,medio-alto,15,"Si un rectángulo tiene una base de 15 metros y una altura de 9 metros, ¿cuál es su área?",90,135,0
-196,11,17130470,3,Geometría básica,medio-alto,16,"Si un círculo tiene un radio de 8 centímetros, ¿cuál es su circunferencia?",16π,16π,1
-197,11,17130470,3,Geometría básica,medio-alto,17,"Si un cubo tiene una arista de longitud de 5 metros, ¿cuál es su volumen?",25,125,0
-198,11,17130470,3,Geometría básica,medio-alto,18,"Si un prisma rectangular tiene una base de 10 cm de ancho, 8 cm de largo y 6 cm de altura, ¿cuál es su volumen?",360,480,0
-199,11,17130470,4,Problemas de porcentajes,alto,19,"Si un producto tiene un precio original de 100 bolívares y está rebajado un 30%, ¿cuál es su precio de venta?",80,70,0
-200,11,17130470,4,Problemas de porcentajes,alto,20,"Si un estudiante contesta correctamente 28 preguntas de un total de 35 en un examen, ¿cuál es el porcentaje de respuestas correctas?",75,80,0
-201,11,17130470,4,Problemas de porcentajes,alto,21,"Si una tienda aumenta el precio de un artículo en un 25%, ¿cuánto costará si el precio original era de 80 bolívares?",90,100,0
-202,11,17130470,4,Problemas de porcentajes,alto,22,"Si un grupo de estudiantes está compuesto por un 70% de mujeres y el resto del grupo son hombres, ¿cuál es el porcentaje de hombres en el grupo?",30,30,1
-203,11,17130470,4,Problemas de porcentajes,alto,23,"Si un descuento de 40% implica un ahorro de 120 bolívares, ¿cuál era el precio original del artículo?",200,300,0
-204,11,17130470,4,Problemas de porcentajes,alto,24,"Si un restaurante aplica un impuesto del 15% sobre el total de la cuenta, ¿cuánto pagará una persona si su consumo es de 50 bolívares?",60,"57,5",0
-205,11,17130470,5,Problemas de tiempo y velocidad,alto,25,"Si una persona corre a una velocidad constante de 15 kilómetros por hora (km/h), ¿cuánto tiempo tardará en recorrer 75 kilómetros (km)?",4,5,0
-206,11,17130470,5,Problemas de tiempo y velocidad,alto,26,"Si un automóvil recorre 480 kilómetros (km) en 6 horas (h), ¿cuál es su velocidad promedio en kilómetros por hora (km/h)?",80,80,1
-207,11,17130470,5,Problemas de tiempo y velocidad,alto,27,"Si un tren viaja a una velocidad constante de 100 kilómetros por hora (km/h) y necesita recorrer una distancia de 800 kilómetros (km), ¿cuánto tiempo tardará en llegar a su destino?",7,8,0
-208,11,17130470,5,Problemas de tiempo y velocidad,alto,28,"Si una persona camina a una velocidad de 8 kilómetros por hora (km/h) y quiere recorrer una distancia de 32 kilómetros (km), ¿cuánto tiempo le tomará?",5,4,0
-209,11,17130470,5,Problemas de tiempo y velocidad,alto,29,"Si un avión viaja a una velocidad de 1000 kilómetros por hora (km/h) y debe recorrer una distancia de 4000 kilómetros (km), ¿cuántas horas tardará en llegar a su destino?",3,4,0
-210,11,17130470,5,Problemas de tiempo y velocidad,alto,30,"Si un tren recorre una distancia de 200 kilómetros (km) en 2 horas, ¿cuál es su velocidad en kilómetros por hora (km/h)?",110,100,0
-211,12,33744665,1,Aritmética básica,bajo,1,"Si un libro cuesta 25 bolívares y quieres comprar 2 libros, ¿cuánto dinero necesitas?",50,50,1
-241,12,33744665,1,Aritmética básica,bajo,1,"Si un libro cuesta 25 bolívares y quieres comprar 2 libros, ¿cuánto dinero necesitas?",50,50,1
-212,12,33744665,1,Aritmética básica,bajo,2,"Si un paquete contiene 10 galletas y quieres repartirlas entre 2 personas por igual, ¿cuántas galletas le tocan a cada persona?",4,5,0
-242,12,33744665,1,Aritmética básica,bajo,2,"Si un paquete contiene 10 galletas y quieres repartirlas entre 2 personas por igual, ¿cuántas galletas le tocan a cada persona?",4,5,0
-213,12,33744665,1,Aritmética básica,bajo,3,"Si un restaurante cobra 5 bolívares por plato y quieres invitar a 3 amigos a comer, ¿cuánto dinero necesitas en total?",12,15,0
-243,12,33744665,1,Aritmética básica,bajo,3,"Si un restaurante cobra 5 bolívares por plato y quieres invitar a 3 amigos a comer, ¿cuánto dinero necesitas en total?",12,15,0
-214,12,33744665,1,Aritmética básica,bajo,4,"Si tienes 10 lápices y quieres repartirlos en 2 estuches por igual, ¿cuántos lápices deben ir en cada estuche?",5,5,1
-244,12,33744665,1,Aritmética básica,bajo,4,"Si tienes 10 lápices y quieres repartirlos en 2 estuches por igual, ¿cuántos lápices deben ir en cada estuche?",5,5,1
-215,12,33744665,1,Aritmética básica,bajo,5,"Si un tanque de gasolina tiene capacidad para 30 litros y ya tiene 10 litros, ¿cuántos litros más puedes echarle?",20,20,1
-245,12,33744665,1,Aritmética básica,bajo,5,"Si un tanque de gasolina tiene capacidad para 30 litros y ya tiene 10 litros, ¿cuántos litros más puedes echarle?",20,20,1
-216,12,33744665,1,Aritmética básica,bajo,6,"Si tienes 100 bolívares y quieres repartir este dinero entre 4 personas por igual, ¿cuánto le toca a cada persona?",35,25,0
-246,12,33744665,1,Aritmética básica,bajo,6,"Si tienes 100 bolívares y quieres repartir este dinero entre 4 personas por igual, ¿cuánto le toca a cada persona?",35,25,0
-217,12,33744665,2,Problemas de proporciones,medio,7,"Si 5 camiones pueden cargar 200 toneladas de carga en total, ¿cuántas toneladas podrían cargar 8 camiones?",320,320,1
-247,12,33744665,2,Problemas de proporciones,medio,7,"Si 5 camiones pueden cargar 200 toneladas de carga en total, ¿cuántas toneladas podrían cargar 8 camiones?",320,320,1
-218,12,33744665,2,Problemas de proporciones,medio,8,"Si 8 metros de tela cuestan 40 bolívares, ¿cuánto cuestan 12 metros de la misma tela?",60,60,1
-248,12,33744665,2,Problemas de proporciones,medio,8,"Si 8 metros de tela cuestan 40 bolívares, ¿cuánto cuestan 12 metros de la misma tela?",60,60,1
-219,12,33744665,2,Problemas de proporciones,medio,9,"Si 3 litros de pintura cubren un área de 15 metros cuadrados, ¿cuántos litros necesitarás para cubrir un área de 30 metros cuadrados?",6,6,1
-249,12,33744665,2,Problemas de proporciones,medio,9,"Si 3 litros de pintura cubren un área de 15 metros cuadrados, ¿cuántos litros necesitarás para cubrir un área de 30 metros cuadrados?",6,6,1
-220,12,33744665,2,Problemas de proporciones,medio,10,"Si 4 trabajadores tardan 8 horas en completar un proyecto, ¿cuántas horas tardarán 6 trabajadores en completar el mismo proyecto?",10,12,0
-250,12,33744665,2,Problemas de proporciones,medio,10,"Si 4 trabajadores tardan 8 horas en completar un proyecto, ¿cuántas horas tardarán 6 trabajadores en completar el mismo proyecto?",10,12,0
-221,12,33744665,2,Problemas de proporciones,medio,11,"Si una receta de pastel requiere 3 tazas de harina y quieres hacer el doble de la receta, ¿cuántas tazas de harina necesitarás?",9,6,0
-251,12,33744665,2,Problemas de proporciones,medio,11,"Si una receta de pastel requiere 3 tazas de harina y quieres hacer el doble de la receta, ¿cuántas tazas de harina necesitarás?",9,6,0
-222,12,33744665,2,Problemas de proporciones,medio,12,"Si 2 cajas de refresco contienen 24 latas en total, ¿cuántas latas hay en cada caja?",6,12,0
-252,12,33744665,2,Problemas de proporciones,medio,12,"Si 2 cajas de refresco contienen 24 latas en total, ¿cuántas latas hay en cada caja?",6,12,0
-223,12,33744665,3,Geometría básica,medio-alto,13,"Si un cuadrado tiene un lado de longitud 12 centímetros, ¿cuál es su perímetro?",72,48,0
-253,12,33744665,3,Geometría básica,medio-alto,13,"Si un cuadrado tiene un lado de longitud 12 centímetros, ¿cuál es su perímetro?",72,48,0
-224,12,33744665,3,Geometría básica,medio-alto,14,"Si un cuadrado tiene un lado de longitud 16 metros, ¿cuál es su área?",192,256,0
-254,12,33744665,3,Geometría básica,medio-alto,14,"Si un cuadrado tiene un lado de longitud 16 metros, ¿cuál es su área?",192,256,0
-225,12,33744665,3,Geometría básica,medio-alto,15,"Si un rectángulo tiene una base de 15 metros y una altura de 9 metros, ¿cuál es su área?",135,135,1
-255,12,33744665,3,Geometría básica,medio-alto,15,"Si un rectángulo tiene una base de 15 metros y una altura de 9 metros, ¿cuál es su área?",135,135,1
-226,12,33744665,3,Geometría básica,medio-alto,16,"Si un círculo tiene un radio de 8 centímetros, ¿cuál es su circunferencia?",24π,16π,0
-256,12,33744665,3,Geometría básica,medio-alto,16,"Si un círculo tiene un radio de 8 centímetros, ¿cuál es su circunferencia?",24π,16π,0
-227,12,33744665,3,Geometría básica,medio-alto,17,"Si un cubo tiene una arista de longitud de 5 metros, ¿cuál es su volumen?",100,125,0
-257,12,33744665,3,Geometría básica,medio-alto,17,"Si un cubo tiene una arista de longitud de 5 metros, ¿cuál es su volumen?",100,125,0
-228,12,33744665,3,Geometría básica,medio-alto,18,"Si un prisma rectangular tiene una base de 10 cm de ancho, 8 cm de largo y 6 cm de altura, ¿cuál es su volumen?",360,480,0
-258,12,33744665,3,Geometría básica,medio-alto,18,"Si un prisma rectangular tiene una base de 10 cm de ancho, 8 cm de largo y 6 cm de altura, ¿cuál es su volumen?",360,480,0
-229,12,33744665,4,Problemas de porcentajes,alto,19,"Si un producto tiene un precio original de 100 bolívares y está rebajado un 30%, ¿cuál es su precio de venta?",75,70,0
-259,12,33744665,4,Problemas de porcentajes,alto,19,"Si un producto tiene un precio original de 100 bolívares y está rebajado un 30%, ¿cuál es su precio de venta?",75,70,0
-230,12,33744665,4,Problemas de porcentajes,alto,20,"Si un estudiante contesta correctamente 28 preguntas de un total de 35 en un examen, ¿cuál es el porcentaje de respuestas correctas?",80,80,1
-260,12,33744665,4,Problemas de porcentajes,alto,20,"Si un estudiante contesta correctamente 28 preguntas de un total de 35 en un examen, ¿cuál es el porcentaje de respuestas correctas?",80,80,1
-231,12,33744665,4,Problemas de porcentajes,alto,21,"Si una tienda aumenta el precio de un artículo en un 25%, ¿cuánto costará si el precio original era de 80 bolívares?",100,100,1
-261,12,33744665,4,Problemas de porcentajes,alto,21,"Si una tienda aumenta el precio de un artículo en un 25%, ¿cuánto costará si el precio original era de 80 bolívares?",100,100,1
-232,12,33744665,4,Problemas de porcentajes,alto,22,"Si un grupo de estudiantes está compuesto por un 70% de mujeres y el resto del grupo son hombres, ¿cuál es el porcentaje de hombres en el grupo?",30,30,1
-262,12,33744665,4,Problemas de porcentajes,alto,22,"Si un grupo de estudiantes está compuesto por un 70% de mujeres y el resto del grupo son hombres, ¿cuál es el porcentaje de hombres en el grupo?",30,30,1
-233,12,33744665,4,Problemas de porcentajes,alto,23,"Si un descuento de 40% implica un ahorro de 120 bolívares, ¿cuál era el precio original del artículo?",300,300,1
-263,12,33744665,4,Problemas de porcentajes,alto,23,"Si un descuento de 40% implica un ahorro de 120 bolívares, ¿cuál era el precio original del artículo?",300,300,1
-234,12,33744665,4,Problemas de porcentajes,alto,24,"Si un restaurante aplica un impuesto del 15% sobre el total de la cuenta, ¿cuánto pagará una persona si su consumo es de 50 bolívares?","57,5","57,5",1
-264,12,33744665,4,Problemas de porcentajes,alto,24,"Si un restaurante aplica un impuesto del 15% sobre el total de la cuenta, ¿cuánto pagará una persona si su consumo es de 50 bolívares?","57,5","57,5",1
-235,12,33744665,5,Problemas de tiempo y velocidad,alto,25,"Si una persona corre a una velocidad constante de 15 kilómetros por hora (km/h), ¿cuánto tiempo tardará en recorrer 75 kilómetros (km)?",5,5,1
-265,12,33744665,5,Problemas de tiempo y velocidad,alto,25,"Si una persona corre a una velocidad constante de 15 kilómetros por hora (km/h), ¿cuánto tiempo tardará en recorrer 75 kilómetros (km)?",5,5,1
-236,12,33744665,5,Problemas de tiempo y velocidad,alto,26,"Si un automóvil recorre 480 kilómetros (km) en 6 horas (h), ¿cuál es su velocidad promedio en kilómetros por hora (km/h)?",70,80,0
-266,12,33744665,5,Problemas de tiempo y velocidad,alto,26,"Si un automóvil recorre 480 kilómetros (km) en 6 horas (h), ¿cuál es su velocidad promedio en kilómetros por hora (km/h)?",70,80,0
-237,12,33744665,5,Problemas de tiempo y velocidad,alto,27,"Si un tren viaja a una velocidad constante de 100 kilómetros por hora (km/h) y necesita recorrer una distancia de 800 kilómetros (km), ¿cuánto tiempo tardará en llegar a su destino?",8,8,1
-267,12,33744665,5,Problemas de tiempo y velocidad,alto,27,"Si un tren viaja a una velocidad constante de 100 kilómetros por hora (km/h) y necesita recorrer una distancia de 800 kilómetros (km), ¿cuánto tiempo tardará en llegar a su destino?",8,8,1
-238,12,33744665,5,Problemas de tiempo y velocidad,alto,28,"Si una persona camina a una velocidad de 8 kilómetros por hora (km/h) y quiere recorrer una distancia de 32 kilómetros (km), ¿cuánto tiempo le tomará?",4,4,1
-268,12,33744665,5,Problemas de tiempo y velocidad,alto,28,"Si una persona camina a una velocidad de 8 kilómetros por hora (km/h) y quiere recorrer una distancia de 32 kilómetros (km), ¿cuánto tiempo le tomará?",4,4,1
-239,12,33744665,5,Problemas de tiempo y velocidad,alto,29,"Si un avión viaja a una velocidad de 1000 kilómetros por hora (km/h) y debe recorrer una distancia de 4000 kilómetros (km), ¿cuántas horas tardará en llegar a su destino?",4,4,1
-269,12,33744665,5,Problemas de tiempo y velocidad,alto,29,"Si un avión viaja a una velocidad de 1000 kilómetros por hora (km/h) y debe recorrer una distancia de 4000 kilómetros (km), ¿cuántas horas tardará en llegar a su destino?",4,4,1
-240,12,33744665,5,Problemas de tiempo y velocidad,alto,30,"Si un tren recorre una distancia de 200 kilómetros (km) en 2 horas, ¿cuál es su velocidad en kilómetros por hora (km/h)?",100,100,1
-270,12,33744665,5,Problemas de tiempo y velocidad,alto,30,"Si un tren recorre una distancia de 200 kilómetros (km) en 2 horas, ¿cuál es su velocidad en kilómetros por hora (km/h)?",100,100,1
-271,13,14106134,1,Aritmética básica,bajo,1,"Si un libro cuesta 25 bolívares y quieres comprar 2 libros, ¿cuánto dinero necesitas?",50,50,1
-272,13,14106134,1,Aritmética básica,bajo,1,"Si un libro cuesta 25 bolívares y quieres comprar 2 libros, ¿cuánto dinero necesitas?",50,50,1
-273,13,14106134,1,Aritmética básica,bajo,2,"Si un paquete contiene 10 galletas y quieres repartirlas entre 2 personas por igual, ¿cuántas galletas le tocan a cada persona?",5,5,1
-274,13,14106134,1,Aritmética básica,bajo,2,"Si un paquete contiene 10 galletas y quieres repartirlas entre 2 personas por igual, ¿cuántas galletas le tocan a cada persona?",5,5,1
-275,13,14106134,1,Aritmética básica,bajo,3,"Si un restaurante cobra 5 bolívares por plato y quieres invitar a 3 amigos a comer, ¿cuánto dinero necesitas en total?",15,15,1
-276,13,14106134,1,Aritmética básica,bajo,3,"Si un restaurante cobra 5 bolívares por plato y quieres invitar a 3 amigos a comer, ¿cuánto dinero necesitas en total?",15,15,1
-277,13,14106134,1,Aritmética básica,bajo,4,"Si tienes 10 lápices y quieres repartirlos en 2 estuches por igual, ¿cuántos lápices deben ir en cada estuche?",5,5,1
-278,13,14106134,1,Aritmética básica,bajo,4,"Si tienes 10 lápices y quieres repartirlos en 2 estuches por igual, ¿cuántos lápices deben ir en cada estuche?",5,5,1
-279,13,14106134,1,Aritmética básica,bajo,5,"Si un tanque de gasolina tiene capacidad para 30 litros y ya tiene 10 litros, ¿cuántos litros más puedes echarle?",20,20,1
-280,13,14106134,1,Aritmética básica,bajo,5,"Si un tanque de gasolina tiene capacidad para 30 litros y ya tiene 10 litros, ¿cuántos litros más puedes echarle?",20,20,1
-281,13,14106134,1,Aritmética básica,bajo,6,"Si tienes 100 bolívares y quieres repartir este dinero entre 4 personas por igual, ¿cuánto le toca a cada persona?",25,25,1
-282,13,14106134,1,Aritmética básica,bajo,6,"Si tienes 100 bolívares y quieres repartir este dinero entre 4 personas por igual, ¿cuánto le toca a cada persona?",25,25,1
-283,13,14106134,2,Problemas de proporciones,medio,7,"Si 5 camiones pueden cargar 200 toneladas de carga en total, ¿cuántas toneladas podrían cargar 8 camiones?",280,320,0
-284,13,14106134,2,Problemas de proporciones,medio,7,"Si 5 camiones pueden cargar 200 toneladas de carga en total, ¿cuántas toneladas podrían cargar 8 camiones?",280,320,0
-285,13,14106134,2,Problemas de proporciones,medio,8,"Si 8 metros de tela cuestan 40 bolívares, ¿cuánto cuestan 12 metros de la misma tela?",60,60,1
-286,13,14106134,2,Problemas de proporciones,medio,8,"Si 8 metros de tela cuestan 40 bolívares, ¿cuánto cuestan 12 metros de la misma tela?",60,60,1
-287,13,14106134,2,Problemas de proporciones,medio,9,"Si 3 litros de pintura cubren un área de 15 metros cuadrados, ¿cuántos litros necesitarás para cubrir un área de 30 metros cuadrados?",6,6,1
-288,13,14106134,2,Problemas de proporciones,medio,9,"Si 3 litros de pintura cubren un área de 15 metros cuadrados, ¿cuántos litros necesitarás para cubrir un área de 30 metros cuadrados?",6,6,1
-289,13,14106134,2,Problemas de proporciones,medio,10,"Si 4 trabajadores tardan 8 horas en completar un proyecto, ¿cuántas horas tardarán 6 trabajadores en completar el mismo proyecto?",12,12,1
-290,13,14106134,2,Problemas de proporciones,medio,10,"Si 4 trabajadores tardan 8 horas en completar un proyecto, ¿cuántas horas tardarán 6 trabajadores en completar el mismo proyecto?",12,12,1
-291,13,14106134,2,Problemas de proporciones,medio,11,"Si una receta de pastel requiere 3 tazas de harina y quieres hacer el doble de la receta, ¿cuántas tazas de harina necesitarás?",6,6,1
-292,13,14106134,2,Problemas de proporciones,medio,11,"Si una receta de pastel requiere 3 tazas de harina y quieres hacer el doble de la receta, ¿cuántas tazas de harina necesitarás?",6,6,1
-293,13,14106134,2,Problemas de proporciones,medio,12,"Si 2 cajas de refresco contienen 24 latas en total, ¿cuántas latas hay en cada caja?",12,12,1
-294,13,14106134,2,Problemas de proporciones,medio,12,"Si 2 cajas de refresco contienen 24 latas en total, ¿cuántas latas hay en cada caja?",12,12,1
-295,13,14106134,3,Geometría básica,medio-alto,13,"Si un cuadrado tiene un lado de longitud 12 centímetros, ¿cuál es su perímetro?",48,48,1
-296,13,14106134,3,Geometría básica,medio-alto,13,"Si un cuadrado tiene un lado de longitud 12 centímetros, ¿cuál es su perímetro?",48,48,1
-297,13,14106134,3,Geometría básica,medio-alto,14,"Si un cuadrado tiene un lado de longitud 16 metros, ¿cuál es su área?",64,256,0
-298,13,14106134,3,Geometría básica,medio-alto,14,"Si un cuadrado tiene un lado de longitud 16 metros, ¿cuál es su área?",64,256,0
-299,13,14106134,3,Geometría básica,medio-alto,15,"Si un rectángulo tiene una base de 15 metros y una altura de 9 metros, ¿cuál es su área?",90,135,0
-300,13,14106134,3,Geometría básica,medio-alto,15,"Si un rectángulo tiene una base de 15 metros y una altura de 9 metros, ¿cuál es su área?",90,135,0
-301,13,14106134,3,Geometría básica,medio-alto,16,"Si un círculo tiene un radio de 8 centímetros, ¿cuál es su circunferencia?",24π,16π,0
-302,13,14106134,3,Geometría básica,medio-alto,16,"Si un círculo tiene un radio de 8 centímetros, ¿cuál es su circunferencia?",24π,16π,0
-303,13,14106134,3,Geometría básica,medio-alto,17,"Si un cubo tiene una arista de longitud de 5 metros, ¿cuál es su volumen?",25,125,0
-304,13,14106134,3,Geometría básica,medio-alto,17,"Si un cubo tiene una arista de longitud de 5 metros, ¿cuál es su volumen?",25,125,0
-305,13,14106134,3,Geometría básica,medio-alto,18,"Si un prisma rectangular tiene una base de 10 cm de ancho, 8 cm de largo y 6 cm de altura, ¿cuál es su volumen?",280,480,0
-306,13,14106134,3,Geometría básica,medio-alto,18,"Si un prisma rectangular tiene una base de 10 cm de ancho, 8 cm de largo y 6 cm de altura, ¿cuál es su volumen?",280,480,0
-307,13,14106134,4,Problemas de porcentajes,alto,19,"Si un producto tiene un precio original de 100 bolívares y está rebajado un 30%, ¿cuál es su precio de venta?",70,70,1
-308,13,14106134,4,Problemas de porcentajes,alto,19,"Si un producto tiene un precio original de 100 bolívares y está rebajado un 30%, ¿cuál es su precio de venta?",70,70,1
-309,13,14106134,4,Problemas de porcentajes,alto,20,"Si un estudiante contesta correctamente 28 preguntas de un total de 35 en un examen, ¿cuál es el porcentaje de respuestas correctas?",80,80,1
-310,13,14106134,4,Problemas de porcentajes,alto,20,"Si un estudiante contesta correctamente 28 preguntas de un total de 35 en un examen, ¿cuál es el porcentaje de respuestas correctas?",80,80,1
-311,13,14106134,4,Problemas de porcentajes,alto,21,"Si una tienda aumenta el precio de un artículo en un 25%, ¿cuánto costará si el precio original era de 80 bolívares?",100,100,1
-312,13,14106134,4,Problemas de porcentajes,alto,21,"Si una tienda aumenta el precio de un artículo en un 25%, ¿cuánto costará si el precio original era de 80 bolívares?",100,100,1
-313,13,14106134,4,Problemas de porcentajes,alto,22,"Si un grupo de estudiantes está compuesto por un 70% de mujeres y el resto del grupo son hombres, ¿cuál es el porcentaje de hombres en el grupo?",30,30,1
-314,13,14106134,4,Problemas de porcentajes,alto,22,"Si un grupo de estudiantes está compuesto por un 70% de mujeres y el resto del grupo son hombres, ¿cuál es el porcentaje de hombres en el grupo?",30,30,1
-315,13,14106134,4,Problemas de porcentajes,alto,23,"Si un descuento de 40% implica un ahorro de 120 bolívares, ¿cuál era el precio original del artículo?",300,300,1
-316,13,14106134,4,Problemas de porcentajes,alto,23,"Si un descuento de 40% implica un ahorro de 120 bolívares, ¿cuál era el precio original del artículo?",300,300,1
-317,13,14106134,4,Problemas de porcentajes,alto,24,"Si un restaurante aplica un impuesto del 15% sobre el total de la cuenta, ¿cuánto pagará una persona si su consumo es de 50 bolívares?","57,5","57,5",1
-318,13,14106134,4,Problemas de porcentajes,alto,24,"Si un restaurante aplica un impuesto del 15% sobre el total de la cuenta, ¿cuánto pagará una persona si su consumo es de 50 bolívares?","57,5","57,5",1
-319,13,14106134,5,Problemas de tiempo y velocidad,alto,25,"Si una persona corre a una velocidad constante de 15 kilómetros por hora (km/h), ¿cuánto tiempo tardará en recorrer 75 kilómetros (km)?",5,5,1
-320,13,14106134,5,Problemas de tiempo y velocidad,alto,25,"Si una persona corre a una velocidad constante de 15 kilómetros por hora (km/h), ¿cuánto tiempo tardará en recorrer 75 kilómetros (km)?",5,5,1
-321,13,14106134,5,Problemas de tiempo y velocidad,alto,26,"Si un automóvil recorre 480 kilómetros (km) en 6 horas (h), ¿cuál es su velocidad promedio en kilómetros por hora (km/h)?",80,80,1
-322,13,14106134,5,Problemas de tiempo y velocidad,alto,26,"Si un automóvil recorre 480 kilómetros (km) en 6 horas (h), ¿cuál es su velocidad promedio en kilómetros por hora (km/h)?",80,80,1
-323,13,14106134,5,Problemas de tiempo y velocidad,alto,27,"Si un tren viaja a una velocidad constante de 100 kilómetros por hora (km/h) y necesita recorrer una distancia de 800 kilómetros (km), ¿cuánto tiempo tardará en llegar a su destino?",8,8,1
-324,13,14106134,5,Problemas de tiempo y velocidad,alto,27,"Si un tren viaja a una velocidad constante de 100 kilómetros por hora (km/h) y necesita recorrer una distancia de 800 kilómetros (km), ¿cuánto tiempo tardará en llegar a su destino?",8,8,1
-325,13,14106134,5,Problemas de tiempo y velocidad,alto,28,"Si una persona camina a una velocidad de 8 kilómetros por hora (km/h) y quiere recorrer una distancia de 32 kilómetros (km), ¿cuánto tiempo le tomará?",3,4,0
-326,13,14106134,5,Problemas de tiempo y velocidad,alto,28,"Si una persona camina a una velocidad de 8 kilómetros por hora (km/h) y quiere recorrer una distancia de 32 kilómetros (km), ¿cuánto tiempo le tomará?",3,4,0
-327,13,14106134,5,Problemas de tiempo y velocidad,alto,29,"Si un avión viaja a una velocidad de 1000 kilómetros por hora (km/h) y debe recorrer una distancia de 4000 kilómetros (km), ¿cuántas horas tardará en llegar a su destino?",5,4,0
-328,13,14106134,5,Problemas de tiempo y velocidad,alto,29,"Si un avión viaja a una velocidad de 1000 kilómetros por hora (km/h) y debe recorrer una distancia de 4000 kilómetros (km), ¿cuántas horas tardará en llegar a su destino?",5,4,0
-329,13,14106134,5,Problemas de tiempo y velocidad,alto,30,"Si un tren recorre una distancia de 200 kilómetros (km) en 2 horas, ¿cuál es su velocidad en kilómetros por hora (km/h)?",90,100,0
-330,13,14106134,5,Problemas de tiempo y velocidad,alto,30,"Si un tren recorre una distancia de 200 kilómetros (km) en 2 horas, ¿cuál es su velocidad en kilómetros por hora (km/h)?",90,100,0
+ID,UserId,UserDNI,CategoryId,CategoryName,Level,QuestionId,QuestionName,UserAnswer,CorrectAnswer,Output,Emotion,EmotionId
+121,4,10715251,1,Aritmética básica,bajo,1,"Si un libro cuesta 25 bolívares y quieres comprar 2 libros, ¿cuánto dinero necesitas?",50,50,1,Surprise,3
+122,4,10715251,1,Aritmética básica,bajo,2,"Si un paquete contiene 10 galletas y quieres repartirlas entre 2 personas por igual, ¿cuántas galletas le tocan a cada persona?",5,5,1,Neutral,0
+123,4,10715251,1,Aritmética básica,bajo,3,"Si un restaurante cobra 5 bolívares por plato y quieres invitar a 3 amigos a comer, ¿cuánto dinero necesitas en total?",15,15,1,Surprise,3
+124,4,10715251,1,Aritmética básica,bajo,4,"Si tienes 10 lápices y quieres repartirlos en 2 estuches por igual, ¿cuántos lápices deben ir en cada estuche?",5,5,1,Neutral,0
+125,4,10715251,1,Aritmética básica,bajo,5,"Si un tanque de gasolina tiene capacidad para 30 litros y ya tiene 10 litros, ¿cuántos litros más puedes echarle?",20,20,1,Neutral,0
+126,4,10715251,1,Aritmética básica,bajo,6,"Si tienes 100 bolívares y quieres repartir este dinero entre 4 personas por igual, ¿cuánto le toca a cada persona?",25,25,1,Neutral,0
+127,4,10715251,2,Problemas de proporciones,medio,7,"Si 5 camiones pueden cargar 200 toneladas de carga en total, ¿cuántas toneladas podrían cargar 8 camiones?",320,320,1,Neutral,0
+128,4,10715251,2,Problemas de proporciones,medio,8,"Si 8 metros de tela cuestan 40 bolívares, ¿cuánto cuestan 12 metros de la misma tela?",60,60,1,Neutral,0
+129,4,10715251,2,Problemas de proporciones,medio,9,"Si 3 litros de pintura cubren un área de 15 metros cuadrados, ¿cuántos litros necesitarás para cubrir un área de 30 metros cuadrados?",6,6,1,Neutral,0
+130,4,10715251,2,Problemas de proporciones,medio,10,"Si 4 trabajadores tardan 8 horas en completar un proyecto, ¿cuántas horas tardarán 6 trabajadores en completar el mismo proyecto?",12,12,1,Anger,6
+131,4,10715251,2,Problemas de proporciones,medio,11,"Si una receta de pastel requiere 3 tazas de harina y quieres hacer el doble de la receta, ¿cuántas tazas de harina necesitarás?",6,6,1,Happy,1
+132,4,10715251,2,Problemas de proporciones,medio,12,"Si 2 cajas de refresco contienen 24 latas en total, ¿cuántas latas hay en cada caja?",12,12,1,Surprise,3
+133,4,10715251,3,Geometría básica,medio-alto,13,"Si un cuadrado tiene un lado de longitud 12 centímetros, ¿cuál es su perímetro?",48,48,1,Surprise,3
+134,4,10715251,3,Geometría básica,medio-alto,14,"Si un cuadrado tiene un lado de longitud 16 metros, ¿cuál es su área?",256,256,1,Neutral,0
+135,4,10715251,3,Geometría básica,medio-alto,15,"Si un rectángulo tiene una base de 15 metros y una altura de 9 metros, ¿cuál es su área?",135,135,1,Neutral,0
+136,4,10715251,3,Geometría básica,medio-alto,16,"Si un círculo tiene un radio de 8 centímetros, ¿cuál es su circunferencia?",16π,16π,1,Neutral,0
+137,4,10715251,3,Geometría básica,medio-alto,17,"Si un cubo tiene una arista de longitud de 5 metros, ¿cuál es su volumen?",75,125,0,Surprise,3
+138,4,10715251,3,Geometría básica,medio-alto,18,"Si un prisma rectangular tiene una base de 10 cm de ancho, 8 cm de largo y 6 cm de altura, ¿cuál es su volumen?",480,480,1,Surprise,3
+139,4,10715251,4,Problemas de porcentajes,alto,19,"Si un producto tiene un precio original de 100 bolívares y está rebajado un 30%, ¿cuál es su precio de venta?",70,70,1,Neutral,0
+140,4,10715251,4,Problemas de porcentajes,alto,20,"Si un estudiante contesta correctamente 28 preguntas de un total de 35 en un examen, ¿cuál es el porcentaje de respuestas correctas?",80,80,1,Neutral,0
+141,4,10715251,4,Problemas de porcentajes,alto,21,"Si una tienda aumenta el precio de un artículo en un 25%, ¿cuánto costará si el precio original era de 80 bolívares?",105,100,0,Neutral,0
+142,4,10715251,4,Problemas de porcentajes,alto,22,"Si un grupo de estudiantes está compuesto por un 70% de mujeres y el resto del grupo son hombres, ¿cuál es el porcentaje de hombres en el grupo?",30,30,1,Neutral,0
+143,4,10715251,4,Problemas de porcentajes,alto,23,"Si un descuento de 40% implica un ahorro de 120 bolívares, ¿cuál era el precio original del artículo?",360,300,0,Neutral,0
+144,4,10715251,4,Problemas de porcentajes,alto,24,"Si un restaurante aplica un impuesto del 15% sobre el total de la cuenta, ¿cuánto pagará una persona si su consumo es de 50 bolívares?","57,5","57,5",1,Neutral,0
+145,4,10715251,5,Problemas de tiempo y velocidad,alto,25,"Si una persona corre a una velocidad constante de 15 kilómetros por hora (km/h), ¿cuánto tiempo tardará en recorrer 75 kilómetros (km)?",5,5,1,Neutral,0
+146,4,10715251,5,Problemas de tiempo y velocidad,alto,26,"Si un automóvil recorre 480 kilómetros (km) en 6 horas (h), ¿cuál es su velocidad promedio en kilómetros por hora (km/h)?",80,80,1,Neutral,0
+147,4,10715251,5,Problemas de tiempo y velocidad,alto,27,"Si un tren viaja a una velocidad constante de 100 kilómetros por hora (km/h) y necesita recorrer una distancia de 800 kilómetros (km), ¿cuánto tiempo tardará en llegar a su destino?",8,8,1,Neutral,0
+148,4,10715251,5,Problemas de tiempo y velocidad,alto,28,"Si una persona camina a una velocidad de 8 kilómetros por hora (km/h) y quiere recorrer una distancia de 32 kilómetros (km), ¿cuánto tiempo le tomará?",4,4,1,Neutral,0
+149,4,10715251,5,Problemas de tiempo y velocidad,alto,29,"Si un avión viaja a una velocidad de 1000 kilómetros por hora (km/h) y debe recorrer una distancia de 4000 kilómetros (km), ¿cuántas horas tardará en llegar a su destino?",4,4,1,Neutral,0
+150,4,10715251,5,Problemas de tiempo y velocidad,alto,30,"Si un tren recorre una distancia de 200 kilómetros (km) en 2 horas, ¿cuál es su velocidad en kilómetros por hora (km/h)?",100,100,1,Neutral,0
+31,6,34824253,1,Aritmética básica,bajo,1,"Si un libro cuesta 25 bolívares y quieres comprar 2 libros, ¿cuánto dinero necesitas?",50,50,1,Neutral,0
+32,6,34824253,1,Aritmética básica,bajo,2,"Si un paquete contiene 10 galletas y quieres repartirlas entre 2 personas por igual, ¿cuántas galletas le tocan a cada persona?",5,5,1,Neutral,0
+33,6,34824253,1,Aritmética básica,bajo,3,"Si un restaurante cobra 5 bolívares por plato y quieres invitar a 3 amigos a comer, ¿cuánto dinero necesitas en total?",15,15,1,Neutral,0
+34,6,34824253,1,Aritmética básica,bajo,4,"Si tienes 10 lápices y quieres repartirlos en 2 estuches por igual, ¿cuántos lápices deben ir en cada estuche?",4,5,0,Neutral,0
+35,6,34824253,1,Aritmética básica,bajo,5,"Si un tanque de gasolina tiene capacidad para 30 litros y ya tiene 10 litros, ¿cuántos litros más puedes echarle?",20,20,1,Neutral,0
+36,6,34824253,1,Aritmética básica,bajo,6,"Si tienes 100 bolívares y quieres repartir este dinero entre 4 personas por igual, ¿cuánto le toca a cada persona?",35,25,0,Neutral,0
+37,6,34824253,2,Problemas de proporciones,medio,7,"Si 5 camiones pueden cargar 200 toneladas de carga en total, ¿cuántas toneladas podrían cargar 8 camiones?",400,320,0,Neutral,0
+38,6,34824253,2,Problemas de proporciones,medio,8,"Si 8 metros de tela cuestan 40 bolívares, ¿cuánto cuestan 12 metros de la misma tela?",55,60,0,Neutral,0
+39,6,34824253,2,Problemas de proporciones,medio,9,"Si 3 litros de pintura cubren un área de 15 metros cuadrados, ¿cuántos litros necesitarás para cubrir un área de 30 metros cuadrados?",12,6,0,Neutral,0
+40,6,34824253,2,Problemas de proporciones,medio,10,"Si 4 trabajadores tardan 8 horas en completar un proyecto, ¿cuántas horas tardarán 6 trabajadores en completar el mismo proyecto?",4,12,0,Neutral,0
+41,6,34824253,2,Problemas de proporciones,medio,11,"Si una receta de pastel requiere 3 tazas de harina y quieres hacer el doble de la receta, ¿cuántas tazas de harina necesitarás?",6,6,1,Neutral,0
+42,6,34824253,2,Problemas de proporciones,medio,12,"Si 2 cajas de refresco contienen 24 latas en total, ¿cuántas latas hay en cada caja?",12,12,1,Neutral,0
+43,6,34824253,3,Geometría básica,medio-alto,13,"Si un cuadrado tiene un lado de longitud 12 centímetros, ¿cuál es su perímetro?",36,48,0,Neutral,0
+44,6,34824253,3,Geometría básica,medio-alto,14,"Si un cuadrado tiene un lado de longitud 16 metros, ¿cuál es su área?",64,256,0,Neutral,0
+45,6,34824253,3,Geometría básica,medio-alto,15,"Si un rectángulo tiene una base de 15 metros y una altura de 9 metros, ¿cuál es su área?",54,135,0,Neutral,0
+46,6,34824253,3,Geometría básica,medio-alto,16,"Si un círculo tiene un radio de 8 centímetros, ¿cuál es su circunferencia?",16π,16π,1,Neutral,0
+47,6,34824253,3,Geometría básica,medio-alto,17,"Si un cubo tiene una arista de longitud de 5 metros, ¿cuál es su volumen?",25,125,0,Neutral,0
+48,6,34824253,3,Geometría básica,medio-alto,18,"Si un prisma rectangular tiene una base de 10 cm de ancho, 8 cm de largo y 6 cm de altura, ¿cuál es su volumen?",280,480,0,Neutral,0
+49,6,34824253,4,Problemas de porcentajes,alto,19,"Si un producto tiene un precio original de 100 bolívares y está rebajado un 30%, ¿cuál es su precio de venta?",70,70,1,Neutral,0
+50,6,34824253,4,Problemas de porcentajes,alto,20,"Si un estudiante contesta correctamente 28 preguntas de un total de 35 en un examen, ¿cuál es el porcentaje de respuestas correctas?",80,80,1,Neutral,0
+51,6,34824253,4,Problemas de porcentajes,alto,21,"Si una tienda aumenta el precio de un artículo en un 25%, ¿cuánto costará si el precio original era de 80 bolívares?",105,100,0,Neutral,0
+52,6,34824253,4,Problemas de porcentajes,alto,22,"Si un grupo de estudiantes está compuesto por un 70% de mujeres y el resto del grupo son hombres, ¿cuál es el porcentaje de hombres en el grupo?",30,30,1,Neutral,0
+53,6,34824253,4,Problemas de porcentajes,alto,23,"Si un descuento de 40% implica un ahorro de 120 bolívares, ¿cuál era el precio original del artículo?",200,300,0,Neutral,0
+54,6,34824253,4,Problemas de porcentajes,alto,24,"Si un restaurante aplica un impuesto del 15% sobre el total de la cuenta, ¿cuánto pagará una persona si su consumo es de 50 bolívares?","62,5","57,5",0,Anger,6
+55,6,34824253,5,Problemas de tiempo y velocidad,alto,25,"Si una persona corre a una velocidad constante de 15 kilómetros por hora (km/h), ¿cuánto tiempo tardará en recorrer 75 kilómetros (km)?",4,5,0,Neutral,0
+56,6,34824253,5,Problemas de tiempo y velocidad,alto,26,"Si un automóvil recorre 480 kilómetros (km) en 6 horas (h), ¿cuál es su velocidad promedio en kilómetros por hora (km/h)?",60,80,0,Sad,2
+57,6,34824253,5,Problemas de tiempo y velocidad,alto,27,"Si un tren viaja a una velocidad constante de 100 kilómetros por hora (km/h) y necesita recorrer una distancia de 800 kilómetros (km), ¿cuánto tiempo tardará en llegar a su destino?",8,8,1,Neutral,0
+58,6,34824253,5,Problemas de tiempo y velocidad,alto,28,"Si una persona camina a una velocidad de 8 kilómetros por hora (km/h) y quiere recorrer una distancia de 32 kilómetros (km), ¿cuánto tiempo le tomará?",2,4,0,Neutral,0
+59,6,34824253,5,Problemas de tiempo y velocidad,alto,29,"Si un avión viaja a una velocidad de 1000 kilómetros por hora (km/h) y debe recorrer una distancia de 4000 kilómetros (km), ¿cuántas horas tardará en llegar a su destino?",4,4,1,Neutral,0
+60,6,34824253,5,Problemas de tiempo y velocidad,alto,30,"Si un tren recorre una distancia de 200 kilómetros (km) en 2 horas, ¿cuál es su velocidad en kilómetros por hora (km/h)?",100,100,1,Neutral,0
+181,11,17130470,1,Aritmética básica,bajo,1,"Si un libro cuesta 25 bolívares y quieres comprar 2 libros, ¿cuánto dinero necesitas?",50,50,1,Neutral,0
+182,11,17130470,1,Aritmética básica,bajo,2,"Si un paquete contiene 10 galletas y quieres repartirlas entre 2 personas por igual, ¿cuántas galletas le tocan a cada persona?",3,5,0,Neutral,0
+183,11,17130470,1,Aritmética básica,bajo,3,"Si un restaurante cobra 5 bolívares por plato y quieres invitar a 3 amigos a comer, ¿cuánto dinero necesitas en total?",15,15,1,Neutral,0
+184,11,17130470,1,Aritmética básica,bajo,4,"Si tienes 10 lápices y quieres repartirlos en 2 estuches por igual, ¿cuántos lápices deben ir en cada estuche?",3,5,0,Neutral,0
+185,11,17130470,1,Aritmética básica,bajo,5,"Si un tanque de gasolina tiene capacidad para 30 litros y ya tiene 10 litros, ¿cuántos litros más puedes echarle?",20,20,1,Neutral,0
+186,11,17130470,1,Aritmética básica,bajo,6,"Si tienes 100 bolívares y quieres repartir este dinero entre 4 personas por igual, ¿cuánto le toca a cada persona?",25,25,1,Neutral,0
+187,11,17130470,2,Problemas de proporciones,medio,7,"Si 5 camiones pueden cargar 200 toneladas de carga en total, ¿cuántas toneladas podrían cargar 8 camiones?",400,320,0,Neutral,0
+188,11,17130470,2,Problemas de proporciones,medio,8,"Si 8 metros de tela cuestan 40 bolívares, ¿cuánto cuestan 12 metros de la misma tela?",55,60,0,Neutral,0
+189,11,17130470,2,Problemas de proporciones,medio,9,"Si 3 litros de pintura cubren un área de 15 metros cuadrados, ¿cuántos litros necesitarás para cubrir un área de 30 metros cuadrados?",12,6,0,Sad,2
+190,11,17130470,2,Problemas de proporciones,medio,10,"Si 4 trabajadores tardan 8 horas en completar un proyecto, ¿cuántas horas tardarán 6 trabajadores en completar el mismo proyecto?",12,12,1,Neutral,0
+191,11,17130470,2,Problemas de proporciones,medio,11,"Si una receta de pastel requiere 3 tazas de harina y quieres hacer el doble de la receta, ¿cuántas tazas de harina necesitarás?",9,6,0,Sad,2
+192,11,17130470,2,Problemas de proporciones,medio,12,"Si 2 cajas de refresco contienen 24 latas en total, ¿cuántas latas hay en cada caja?",12,12,1,Sad,2
+193,11,17130470,3,Geometría básica,medio-alto,13,"Si un cuadrado tiene un lado de longitud 12 centímetros, ¿cuál es su perímetro?",60,48,0,Neutral,0
+194,11,17130470,3,Geometría básica,medio-alto,14,"Si un cuadrado tiene un lado de longitud 16 metros, ¿cuál es su área?",64,256,0,Neutral,0
+195,11,17130470,3,Geometría básica,medio-alto,15,"Si un rectángulo tiene una base de 15 metros y una altura de 9 metros, ¿cuál es su área?",90,135,0,Neutral,0
+196,11,17130470,3,Geometría básica,medio-alto,16,"Si un círculo tiene un radio de 8 centímetros, ¿cuál es su circunferencia?",16π,16π,1,Neutral,0
+197,11,17130470,3,Geometría básica,medio-alto,17,"Si un cubo tiene una arista de longitud de 5 metros, ¿cuál es su volumen?",25,125,0,Neutral,0
+198,11,17130470,3,Geometría básica,medio-alto,18,"Si un prisma rectangular tiene una base de 10 cm de ancho, 8 cm de largo y 6 cm de altura, ¿cuál es su volumen?",360,480,0,Neutral,0
+199,11,17130470,4,Problemas de porcentajes,alto,19,"Si un producto tiene un precio original de 100 bolívares y está rebajado un 30%, ¿cuál es su precio de venta?",80,70,0,Neutral,0
+200,11,17130470,4,Problemas de porcentajes,alto,20,"Si un estudiante contesta correctamente 28 preguntas de un total de 35 en un examen, ¿cuál es el porcentaje de respuestas correctas?",75,80,0,Neutral,0
+201,11,17130470,4,Problemas de porcentajes,alto,21,"Si una tienda aumenta el precio de un artículo en un 25%, ¿cuánto costará si el precio original era de 80 bolívares?",90,100,0,Sad,2
+202,11,17130470,4,Problemas de porcentajes,alto,22,"Si un grupo de estudiantes está compuesto por un 70% de mujeres y el resto del grupo son hombres, ¿cuál es el porcentaje de hombres en el grupo?",30,30,1,Neutral,0
+203,11,17130470,4,Problemas de porcentajes,alto,23,"Si un descuento de 40% implica un ahorro de 120 bolívares, ¿cuál era el precio original del artículo?",200,300,0,Neutral,0
+204,11,17130470,4,Problemas de porcentajes,alto,24,"Si un restaurante aplica un impuesto del 15% sobre el total de la cuenta, ¿cuánto pagará una persona si su consumo es de 50 bolívares?",60,"57,5",0,Neutral,0
+205,11,17130470,5,Problemas de tiempo y velocidad,alto,25,"Si una persona corre a una velocidad constante de 15 kilómetros por hora (km/h), ¿cuánto tiempo tardará en recorrer 75 kilómetros (km)?",4,5,0,Neutral,0
+206,11,17130470,5,Problemas de tiempo y velocidad,alto,26,"Si un automóvil recorre 480 kilómetros (km) en 6 horas (h), ¿cuál es su velocidad promedio en kilómetros por hora (km/h)?",80,80,1,Neutral,0
+207,11,17130470,5,Problemas de tiempo y velocidad,alto,27,"Si un tren viaja a una velocidad constante de 100 kilómetros por hora (km/h) y necesita recorrer una distancia de 800 kilómetros (km), ¿cuánto tiempo tardará en llegar a su destino?",7,8,0,Neutral,0
+208,11,17130470,5,Problemas de tiempo y velocidad,alto,28,"Si una persona camina a una velocidad de 8 kilómetros por hora (km/h) y quiere recorrer una distancia de 32 kilómetros (km), ¿cuánto tiempo le tomará?",5,4,0,Neutral,0
+209,11,17130470,5,Problemas de tiempo y velocidad,alto,29,"Si un avión viaja a una velocidad de 1000 kilómetros por hora (km/h) y debe recorrer una distancia de 4000 kilómetros (km), ¿cuántas horas tardará en llegar a su destino?",3,4,0,Neutral,0
+210,11,17130470,5,Problemas de tiempo y velocidad,alto,30,"Si un tren recorre una distancia de 200 kilómetros (km) en 2 horas, ¿cuál es su velocidad en kilómetros por hora (km/h)?",110,100,0,Neutral,0
+211,12,33744665,1,Aritmética básica,bajo,1,"Si un libro cuesta 25 bolívares y quieres comprar 2 libros, ¿cuánto dinero necesitas?",50,50,1,Neutral,0
+212,12,33744665,1,Aritmética básica,bajo,2,"Si un paquete contiene 10 galletas y quieres repartirlas entre 2 personas por igual, ¿cuántas galletas le tocan a cada persona?",4,5,0,Neutral,0
+213,12,33744665,1,Aritmética básica,bajo,3,"Si un restaurante cobra 5 bolívares por plato y quieres invitar a 3 amigos a comer, ¿cuánto dinero necesitas en total?",12,15,0,Neutral,0
+214,12,33744665,1,Aritmética básica,bajo,4,"Si tienes 10 lápices y quieres repartirlos en 2 estuches por igual, ¿cuántos lápices deben ir en cada estuche?",5,5,1,Anger,6
+215,12,33744665,1,Aritmética básica,bajo,5,"Si un tanque de gasolina tiene capacidad para 30 litros y ya tiene 10 litros, ¿cuántos litros más puedes echarle?",20,20,1,Neutral,0
+216,12,33744665,1,Aritmética básica,bajo,6,"Si tienes 100 bolívares y quieres repartir este dinero entre 4 personas por igual, ¿cuánto le toca a cada persona?",35,25,0,Neutral,0
+217,12,33744665,2,Problemas de proporciones,medio,7,"Si 5 camiones pueden cargar 200 toneladas de carga en total, ¿cuántas toneladas podrían cargar 8 camiones?",320,320,1,Neutral,0
+218,12,33744665,2,Problemas de proporciones,medio,8,"Si 8 metros de tela cuestan 40 bolívares, ¿cuánto cuestan 12 metros de la misma tela?",60,60,1,Neutral,0
+219,12,33744665,2,Problemas de proporciones,medio,9,"Si 3 litros de pintura cubren un área de 15 metros cuadrados, ¿cuántos litros necesitarás para cubrir un área de 30 metros cuadrados?",6,6,1,Neutral,0
+220,12,33744665,2,Problemas de proporciones,medio,10,"Si 4 trabajadores tardan 8 horas en completar un proyecto, ¿cuántas horas tardarán 6 trabajadores en completar el mismo proyecto?",10,12,0,Neutral,0
+221,12,33744665,2,Problemas de proporciones,medio,11,"Si una receta de pastel requiere 3 tazas de harina y quieres hacer el doble de la receta, ¿cuántas tazas de harina necesitarás?",9,6,0,Neutral,0
+222,12,33744665,2,Problemas de proporciones,medio,12,"Si 2 cajas de refresco contienen 24 latas en total, ¿cuántas latas hay en cada caja?",6,12,0,Neutral,0
+223,12,33744665,3,Geometría básica,medio-alto,13,"Si un cuadrado tiene un lado de longitud 12 centímetros, ¿cuál es su perímetro?",72,48,0,Neutral,0
+224,12,33744665,3,Geometría básica,medio-alto,14,"Si un cuadrado tiene un lado de longitud 16 metros, ¿cuál es su área?",192,256,0,Neutral,0
+225,12,33744665,3,Geometría básica,medio-alto,15,"Si un rectángulo tiene una base de 15 metros y una altura de 9 metros, ¿cuál es su área?",135,135,1,Neutral,0
+226,12,33744665,3,Geometría básica,medio-alto,16,"Si un círculo tiene un radio de 8 centímetros, ¿cuál es su circunferencia?",24π,16π,0,Neutral,0
+227,12,33744665,3,Geometría básica,medio-alto,17,"Si un cubo tiene una arista de longitud de 5 metros, ¿cuál es su volumen?",100,125,0,Neutral,0
+228,12,33744665,3,Geometría básica,medio-alto,18,"Si un prisma rectangular tiene una base de 10 cm de ancho, 8 cm de largo y 6 cm de altura, ¿cuál es su volumen?",360,480,0,Neutral,0
+229,12,33744665,4,Problemas de porcentajes,alto,19,"Si un producto tiene un precio original de 100 bolívares y está rebajado un 30%, ¿cuál es su precio de venta?",75,70,0,Neutral,0
+230,12,33744665,4,Problemas de porcentajes,alto,20,"Si un estudiante contesta correctamente 28 preguntas de un total de 35 en un examen, ¿cuál es el porcentaje de respuestas correctas?",80,80,1,Neutral,0
+231,12,33744665,4,Problemas de porcentajes,alto,21,"Si una tienda aumenta el precio de un artículo en un 25%, ¿cuánto costará si el precio original era de 80 bolívares?",100,100,1,Neutral,0
+232,12,33744665,4,Problemas de porcentajes,alto,22,"Si un grupo de estudiantes está compuesto por un 70% de mujeres y el resto del grupo son hombres, ¿cuál es el porcentaje de hombres en el grupo?",30,30,1,Neutral,0
+233,12,33744665,4,Problemas de porcentajes,alto,23,"Si un descuento de 40% implica un ahorro de 120 bolívares, ¿cuál era el precio original del artículo?",300,300,1,Neutral,0
+234,12,33744665,4,Problemas de porcentajes,alto,24,"Si un restaurante aplica un impuesto del 15% sobre el total de la cuenta, ¿cuánto pagará una persona si su consumo es de 50 bolívares?","57,5","57,5",1,Neutral,0
+235,12,33744665,5,Problemas de tiempo y velocidad,alto,25,"Si una persona corre a una velocidad constante de 15 kilómetros por hora (km/h), ¿cuánto tiempo tardará en recorrer 75 kilómetros (km)?",5,5,1,Neutral,0
+236,12,33744665,5,Problemas de tiempo y velocidad,alto,26,"Si un automóvil recorre 480 kilómetros (km) en 6 horas (h), ¿cuál es su velocidad promedio en kilómetros por hora (km/h)?",70,80,0,Neutral,0
+237,12,33744665,5,Problemas de tiempo y velocidad,alto,27,"Si un tren viaja a una velocidad constante de 100 kilómetros por hora (km/h) y necesita recorrer una distancia de 800 kilómetros (km), ¿cuánto tiempo tardará en llegar a su destino?",8,8,1,Neutral,0
+238,12,33744665,5,Problemas de tiempo y velocidad,alto,28,"Si una persona camina a una velocidad de 8 kilómetros por hora (km/h) y quiere recorrer una distancia de 32 kilómetros (km), ¿cuánto tiempo le tomará?",4,4,1,Neutral,0
+239,12,33744665,5,Problemas de tiempo y velocidad,alto,29,"Si un avión viaja a una velocidad de 1000 kilómetros por hora (km/h) y debe recorrer una distancia de 4000 kilómetros (km), ¿cuántas horas tardará en llegar a su destino?",4,4,1,Neutral,0
+240,12,33744665,5,Problemas de tiempo y velocidad,alto,30,"Si un tren recorre una distancia de 200 kilómetros (km) en 2 horas, ¿cuál es su velocidad en kilómetros por hora (km/h)?",100,100,1,Neutral,0
+271,13,14106134,1,Aritmética básica,bajo,1,"Si un libro cuesta 25 bolívares y quieres comprar 2 libros, ¿cuánto dinero necesitas?",50,50,1,Neutral,0
+273,13,14106134,1,Aritmética básica,bajo,2,"Si un paquete contiene 10 galletas y quieres repartirlas entre 2 personas por igual, ¿cuántas galletas le tocan a cada persona?",5,5,1,Neutral,0
+275,13,14106134,1,Aritmética básica,bajo,3,"Si un restaurante cobra 5 bolívares por plato y quieres invitar a 3 amigos a comer, ¿cuánto dinero necesitas en total?",15,15,1,Neutral,0
+277,13,14106134,1,Aritmética básica,bajo,4,"Si tienes 10 lápices y quieres repartirlos en 2 estuches por igual, ¿cuántos lápices deben ir en cada estuche?",5,5,1,Neutral,0
+279,13,14106134,1,Aritmética básica,bajo,5,"Si un tanque de gasolina tiene capacidad para 30 litros y ya tiene 10 litros, ¿cuántos litros más puedes echarle?",20,20,1,Neutral,0
+281,13,14106134,1,Aritmética básica,bajo,6,"Si tienes 100 bolívares y quieres repartir este dinero entre 4 personas por igual, ¿cuánto le toca a cada persona?",25,25,1,Neutral,0
+283,13,14106134,2,Problemas de proporciones,medio,7,"Si 5 camiones pueden cargar 200 toneladas de carga en total, ¿cuántas toneladas podrían cargar 8 camiones?",280,320,0,Neutral,0
+285,13,14106134,2,Problemas de proporciones,medio,8,"Si 8 metros de tela cuestan 40 bolívares, ¿cuánto cuestan 12 metros de la misma tela?",60,60,1,Neutral,0
+287,13,14106134,2,Problemas de proporciones,medio,9,"Si 3 litros de pintura cubren un área de 15 metros cuadrados, ¿cuántos litros necesitarás para cubrir un área de 30 metros cuadrados?",6,6,1,Neutral,0
+289,13,14106134,2,Problemas de proporciones,medio,10,"Si 4 trabajadores tardan 8 horas en completar un proyecto, ¿cuántas horas tardarán 6 trabajadores en completar el mismo proyecto?",12,12,1,Neutral,0
+291,13,14106134,2,Problemas de proporciones,medio,11,"Si una receta de pastel requiere 3 tazas de harina y quieres hacer el doble de la receta, ¿cuántas tazas de harina necesitarás?",6,6,1,Neutral,0
+293,13,14106134,2,Problemas de proporciones,medio,12,"Si 2 cajas de refresco contienen 24 latas en total, ¿cuántas latas hay en cada caja?",12,12,1,Neutral,0
+295,13,14106134,3,Geometría básica,medio-alto,13,"Si un cuadrado tiene un lado de longitud 12 centímetros, ¿cuál es su perímetro?",48,48,1,Neutral,0
+297,13,14106134,3,Geometría básica,medio-alto,14,"Si un cuadrado tiene un lado de longitud 16 metros, ¿cuál es su área?",64,256,0,Neutral,0
+299,13,14106134,3,Geometría básica,medio-alto,15,"Si un rectángulo tiene una base de 15 metros y una altura de 9 metros, ¿cuál es su área?",90,135,0,Neutral,0
+301,13,14106134,3,Geometría básica,medio-alto,16,"Si un círculo tiene un radio de 8 centímetros, ¿cuál es su circunferencia?",24π,16π,0,Neutral,0
+303,13,14106134,3,Geometría básica,medio-alto,17,"Si un cubo tiene una arista de longitud de 5 metros, ¿cuál es su volumen?",25,125,0,Neutral,0
+305,13,14106134,3,Geometría básica,medio-alto,18,"Si un prisma rectangular tiene una base de 10 cm de ancho, 8 cm de largo y 6 cm de altura, ¿cuál es su volumen?",280,480,0,Neutral,0
+307,13,14106134,4,Problemas de porcentajes,alto,19,"Si un producto tiene un precio original de 100 bolívares y está rebajado un 30%, ¿cuál es su precio de venta?",70,70,1,Neutral,0
+309,13,14106134,4,Problemas de porcentajes,alto,20,"Si un estudiante contesta correctamente 28 preguntas de un total de 35 en un examen, ¿cuál es el porcentaje de respuestas correctas?",80,80,1,Neutral,0
+311,13,14106134,4,Problemas de porcentajes,alto,21,"Si una tienda aumenta el precio de un artículo en un 25%, ¿cuánto costará si el precio original era de 80 bolívares?",100,100,1,Neutral,0
+313,13,14106134,4,Problemas de porcentajes,alto,22,"Si un grupo de estudiantes está compuesto por un 70% de mujeres y el resto del grupo son hombres, ¿cuál es el porcentaje de hombres en el grupo?",30,30,1,Neutral,0
+315,13,14106134,4,Problemas de porcentajes,alto,23,"Si un descuento de 40% implica un ahorro de 120 bolívares, ¿cuál era el precio original del artículo?",300,300,1,Neutral,0
+317,13,14106134,4,Problemas de porcentajes,alto,24,"Si un restaurante aplica un impuesto del 15% sobre el total de la cuenta, ¿cuánto pagará una persona si su consumo es de 50 bolívares?","57,5","57,5",1,Neutral,0
+319,13,14106134,5,Problemas de tiempo y velocidad,alto,25,"Si una persona corre a una velocidad constante de 15 kilómetros por hora (km/h), ¿cuánto tiempo tardará en recorrer 75 kilómetros (km)?",5,5,1,Neutral,0
+321,13,14106134,5,Problemas de tiempo y velocidad,alto,26,"Si un automóvil recorre 480 kilómetros (km) en 6 horas (h), ¿cuál es su velocidad promedio en kilómetros por hora (km/h)?",80,80,1,Neutral,0
+323,13,14106134,5,Problemas de tiempo y velocidad,alto,27,"Si un tren viaja a una velocidad constante de 100 kilómetros por hora (km/h) y necesita recorrer una distancia de 800 kilómetros (km), ¿cuánto tiempo tardará en llegar a su destino?",8,8,1,Neutral,0
+325,13,14106134,5,Problemas de tiempo y velocidad,alto,28,"Si una persona camina a una velocidad de 8 kilómetros por hora (km/h) y quiere recorrer una distancia de 32 kilómetros (km), ¿cuánto tiempo le tomará?",3,4,0,Neutral,0
+327,13,14106134,5,Problemas de tiempo y velocidad,alto,29,"Si un avión viaja a una velocidad de 1000 kilómetros por hora (km/h) y debe recorrer una distancia de 4000 kilómetros (km), ¿cuántas horas tardará en llegar a su destino?",5,4,0,Neutral,0
+329,13,14106134,5,Problemas de tiempo y velocidad,alto,30,"Si un tren recorre una distancia de 200 kilómetros (km) en 2 horas, ¿cuál es su velocidad en kilómetros por hora (km/h)?",90,100,0,Neutral,0
