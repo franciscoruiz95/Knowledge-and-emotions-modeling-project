@@ -3,6 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import joblib
 
+# Load the DataSet
+data = pd.read_csv('../../../DataSet.csv')
 # Load the saved model
 HMMmodel = joblib.load('TrainedHMM.joblib')
 
@@ -16,9 +18,6 @@ emotions_num = {
         6:  'Anger'   ,
         7:  'Contempt'
     }
-
-# Load the DataSet
-data = pd.read_csv('../DataSet.csv')
 
 def predict_next(seq):
     seq = np.array(seq)

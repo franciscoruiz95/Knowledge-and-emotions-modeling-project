@@ -44,8 +44,8 @@ class StudentModel(gym.Env):
         self.reward = np.random.choice([0, 1], p=[1 - probability, probability])
         print(self.reward)
         self.action = action
-        # se pasa self.action + 1 porque el modelo fue entrenado con las categorias del 1 al 5
-        self.state = ST.MAPPER_TO_STATE[self._predict_next_state([self.action + 1, self.reward, ST.MAPPER_TO_HIDDEN_STATE[self.state]])[0]]
+        # se pasa self.action + 1 porque el modelo fue entrena con las categorias del 1 al 5
+        self.state = ST.MAPPER_TO_STATE[self._predict_next_state([self.action, self.reward, ST.MAPPER_TO_HIDDEN_STATE[self.state]])[0]]
         self.P[action].update(self.reward)
         # self.render()
         print(self.state)

@@ -60,7 +60,6 @@ if __name__ == "__main__":
     for _ in range(iterations):
         action = agent.get_action(observation, "epsilon-greedy")
         new_observation, reward, terminated, _, _ = env.step(action)
-        print(action, new_observation, reward, terminated)
         agent.update(observation, action, new_observation, reward, terminated)
         observation = new_observation
         agent.render('step')
